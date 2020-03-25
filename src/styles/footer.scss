@@ -1,0 +1,8 @@
+.footer{
+    background: $color-light-gray;
+
+    >.wrapper{
+        max-width: $laptop;
+        margin: 0 auto;
+    }
+}
