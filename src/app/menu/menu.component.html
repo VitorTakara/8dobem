@@ -1,0 +1,24 @@
+<ng-template #links>
+    <a class="link" routerLink="/home" routerLinkActive="-active">SOBREVIVA</a>
+    <a class="link" href="#">FAKE NEWS</a>
+    <a class="link" href="#">SAIA DO TEDIO</a>
+</ng-template>
+
+<header class="menu ">
+  <div class="wrapper container">
+    <div class="logo">
+      <img class="image" src="https://placekitten.com/260/120">
+    </div>
+    
+    <nav class="links-desktop">
+        <ng-container *ngTemplateOutlet="links"></ng-container>
+    </nav>
+
+    <nav class="menu-mobile" [class.-active]="menuAberto">
+      <app-hamburger-icon (click)="openMenu()" [menuAberto]="menuAberto"></app-hamburger-icon>
+      <nav class="links-mobile">
+        <ng-container *ngTemplateOutlet="links"></ng-container>
+      </nav>
+    </nav>
+  </div>
+</header>

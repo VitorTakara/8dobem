@@ -1,1 +1,12 @@
-/* You can add global styles to this file, and also import other style files */
+@import 
+
+// Setup
+'styles/reset.scss',
+'styles/variables.scss',
+'styles/setup.scss',
+
+
+// Components
+'styles/footer.scss',
+'styles/menu.scss',
+'styles/home.scss'
