@@ -1,6 +1,4 @@
-@import 
-
-// Setup
+@import // Setup
 'styles/reset.scss',
 'styles/variables.scss',
 'styles/setup.scss',
@@ -9,4 +7,8 @@
 // Components
 'styles/footer.scss',
 'styles/menu.scss',
-'styles/home.scss'
+'styles/home.scss',
+'styles/buttons.scss',
+
+// Trumps
+'styles/trumps.scss'

@@ -1,7 +1,6 @@
 <ng-template #links>
-    <a class="link" routerLink="/home" routerLinkActive="-active">SOBREVIVA</a>
-    <a class="link" href="#">FAKE NEWS</a>
-    <a class="link" href="#">SAIA DO TEDIO</a>
+  <a class="link" routerLink="/home" routerLinkActive="-active">ENTENDA TUDO SOBRE</a>
+  <a class="link" href="#">FAKE NEWS</a>
 </ng-template>
 
 <header class="menu ">
@@ -9,9 +8,9 @@
     <div class="logo">
       <img class="image" src="https://placekitten.com/260/120">
     </div>
-    
+
     <nav class="links-desktop">
-        <ng-container *ngTemplateOutlet="links"></ng-container>
+      <ng-container *ngTemplateOutlet="links"></ng-container>
     </nav>
 
     <nav class="menu-mobile" [class.-active]="menuAberto">
