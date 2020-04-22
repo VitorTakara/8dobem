@@ -1,8 +1,26 @@
-.footer{
-    background: $color-light-gray;
+.footer {
+  background: $color-secondary;
+  color: white;
 
-    >.wrapper{
-        max-width: $laptop;
-        margin: 0 auto;
+  >.wrapper {
+    padding: 50px 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.7fr;
+    grid-gap: 70px;
+
+    >.section {
+
+      >.title {
+        font-weight: 800;
+        margin-bottom: 25px;
+
+      }
+
+      >ul>li {
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-between;
+      }
     }
+  }
 }

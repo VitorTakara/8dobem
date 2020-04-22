@@ -2,32 +2,37 @@
   <section class="start">
     <div class="main">
       <div class="title-subtitle">
-        <h1 class="title">MUITO DO QUE VOCÊ PRECISA SABER SOBRE COVID-19</h1>
-        <span class="subtitle">UM GUIA DE SOBREVIVÊNCIA AO COVID-19. SAIBA O QUE FAZER EM CADA SITUAÇÃO</span>
+        <h1 class="title">ENTENDA TUDO SOBRE O COVID-19</h1>
+        <span class="subtitle">TUDO O QUE VOCÊ PRECISA SABER DE MANEIRA SIMPLES, OBJETIVA E ENRIQUECEDORA</span>
       </div>
 
+      <!-- Guide -->
       <section class="small-cards">
-        <article class="card" *ngFor="let item of [1,2,3,4,5,6]">
+        <article class="card" *ngFor="let guide of guides">
           <div class="thumbnail">
-            <img class="image" src="http://placekitten.com/300/300">
+            <img class="image" [src]="guide.thumb">
           </div>
 
           <div class="info">
-            <h3 class="title">Lorem ipsum dolor sit?</h3>
-            <p class="description">Lorem, ipsum dolor sit amet consect etur adipisi cing elit. Arc hitecto, cupiditate??</p>
-            <a href="#" class="link">LER MAIS</a>
+            <h3 class="title">{{ guide.title }}</h3>
+            <p class="description">{{ guide.description }}</p>
+            <a [href]="guide.link" class="link">LER MAIS</a>
           </div>
         </article>
       </section>
     </div>
 
+
+    <!-- Fake news e Mapa Interativo-->
     <div class="aside">
-      <aside class="aside-cards" >
-        <article class="card" *ngFor="let item of [1,2]">
+      <aside class="aside-cards" *ngFor="let asideItem of asideItems">
+        <article class="card">
+          <img class="background-img" [src]="asideItem.thumb">
           <div class="title-description">
-            <h3 class="title">Lorem ipsum dolor sit?</h3>
-            <p class="description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
+            <h3 class="title">{{ asideItem.title }}</h3>
+            <p class="description">{{ asideItem.subtitle }}</p>
           </div>
+          <span class="read-more">LER MAIS</span>
         </article>
       </aside>
     </div>
