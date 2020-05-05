@@ -1,0 +1,121 @@
+.guide-detail {
+  padding: 10px 15px;
+
+  @media(min-width: $desktop) {
+    padding: 50px 15%;
+  }
+
+  >.header {
+    >.title {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 10px;
+      font-weight: 800;
+
+      @media(min-width: $tablet) {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 15px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 42px;
+        line-height: 40px;
+        margin-bottom: 25px;
+      }
+    }
+
+    >.subtitle {
+      font-size: 15px;
+      color: $color-gray;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+
+      @media(min-width: $tablet) {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 21px;
+        margin-bottom: 20px;
+      }
+    }
+
+    >.time {
+      font-size: 13px;
+      color: $color-gray;
+
+      @media(min-width: $tablet) {
+        font-size: 15px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 18px;
+      }
+    }
+  }
+
+  >.upper-thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+
+    >.listen {
+      >.text {
+        color: $color-primary;
+        font-weight: 600;
+      }
+
+      >.play {}
+    }
+  }
+
+  >.thumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    >.img-wrapper {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+
+      >.img {
+        top: 50%;
+        transform: translateY(-50%);
+        position: absolute;
+        width: 100%;
+        min-height: 100%;
+      }
+    }
+
+    >.description {
+      margin-top: 7px;
+      font-size: 13px;
+      color: $color-gray;
+    }
+  }
+
+  >.guide {
+    >.paragraph {
+      line-height: 26px;
+      margin-bottom: 20px;
+
+      &.-is-step{
+        margin-bottom: 0;
+      }
+
+      &.-is-last-step{
+        margin-bottom: 20px;
+      }
+
+      >.step {
+        font-weight: 800;
+        color: $color-primary;
+        font-size: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+}
