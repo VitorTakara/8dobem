@@ -42,11 +42,11 @@
         </div>
       </div>
 
-      <div class="next">
+      <a class="next" [href]="'#/' + nextGuide.link">
         <button class="btn" type="button">
-          2. COMO ELE É TRANSMITIDO
+          {{ nextGuide.id }}. {{ nextGuide.title }} 
         </button>
-      </div>
+      </a>
     </div>
   
 </article>
