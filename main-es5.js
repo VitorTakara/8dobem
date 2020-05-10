@@ -99,7 +99,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         return new (t || AppRoutingModule)();
       },
       imports: [[_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, {
-        useHash: false
+        useHash: true
       })], _angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
     });
 
@@ -117,7 +117,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["NgModule"],
         args: [{
           imports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"].forRoot(routes, {
-            useHash: false
+            useHash: true
           })],
           exports: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterModule"]]
         }]
@@ -1709,7 +1709,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       shareButtons: [{
         icon: "icon-facebook",
         type: "facebook",
-        link: "http://www.guiacovid19.com.br/#/guia/1"
+        link: "http://www.guiacovid19.com.br/guia/1"
       }, {
         icon: "icon-whatsapp",
         link: "#"
