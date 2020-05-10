@@ -10,7 +10,7 @@
       <section class="small-cards">
         <article class="card" *ngFor="let guide of guides">
           <div class="thumbnail">
-            <img class="image" [src]="guide.thumb">
+            <img class="image" [src]="guide.thumb" [alt]="guide.alt">
           </div>
 
           <div class="info">
@@ -27,7 +27,7 @@
     <div class="aside">
       <aside class="aside-cards" *ngFor="let asideItem of asideItems">
         <article class="card">
-          <img class="background-img" [src]="asideItem.thumb">
+          <img class="background-img" [alt]="asideItem.alt" [src]="asideItem.thumb">
           <div class="title-description">
             <h3 class="title">{{ asideItem.title }}</h3>
             <p class="description">{{ asideItem.subtitle }}</p>

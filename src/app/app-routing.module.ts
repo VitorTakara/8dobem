@@ -7,11 +7,11 @@ import { GuideDetailComponent } from './guide-detail/guide-detail.component';
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'guia/:id', component: GuideDetailComponent },
-  { path: '**', redirectTo: 'home' }
+  //{ path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes,{useHash:true})],
+  imports: [RouterModule.forRoot(routes,{useHash:false})],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }

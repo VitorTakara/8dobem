@@ -3,18 +3,19 @@ export const GUIDE_DETAILS = [{
     title: "O QUE É A COVID-19",
     subtitle: "Saiba o que é COVID-19, de onde veio e como chegou até o Brasil",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 2,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook",
+      link: "http://www.guiacovid19.com.br/#/guia/1"
     }, {
-      icon: "O",
+      icon: "icon-whatsapp",
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      img: "../../assets/images/banners/1_o_que_e_covid.jpg",
+      alt: "Imagem ilustrativa de uma pessoa com equipamento de proteção segurando um sugador de vírus"
     },
     paragraphs: [{
         paragraph: "Coronavirus disease 2019 (COVID-19), é o nome que se deu para o novo coronavírus SARS-cov-2. É uma doença que afeta o trato respiratório, assim como a gripe comum, porém somados à complicações respiratórias mais graves."
@@ -32,7 +33,7 @@ export const GUIDE_DETAILS = [{
     title: "Como a COVID-19 é transmitida?",
     subtitle: "O SARS-cov-2 é um virus respiratório, descubra como acontece a transmissão.",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 2,
     audio: "",
     shareButtons: [{
       icon: "X",
@@ -42,8 +43,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/2_como_e_transmitido.jpg",
+      alt: "Imagem ilustrativa de pessoas aglomeradas em um espaço vúlnerável"
     },
     paragraphs: [{
         paragraph: "O Sars-cov-2 é um vírus respiratório,  ou seja, fica alojado em locais como nariz, boca, traquéia, garganta e pulmões.  Quando uma pessoa com COVID-19 fala, tosse ou espirra, o vírus é carregado por pequenas partículas de água."
@@ -75,8 +77,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/3_grupo_risco.jpg",
+      alt: "Imagem de um senhor sentado tomando seu vinho dentro de um restaurante ou bar"
     },
     paragraphs: [{
         paragraph: "São grupos de pessoas que caso se contaminem com COVID-19, estão mais propensos a maiores complicações e morrer em decorrência da COVID-19, eles são:"
@@ -169,7 +172,7 @@ export const GUIDE_DETAILS = [{
     title: "Como posso me proteger e proteger minha família do novo Coronavírus?",
     subtitle: "Aprenda medidas fundamentais para proteger a si e todos que você ama!",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 6,
     audio: "",
     shareButtons: [{
       icon: "X",
@@ -179,8 +182,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/4_protecao.jpg",
+      alt: "Imagem de uma escultura utilizando um máscara de proteção"
     },
     paragraphs: [{
         step: "1.",
@@ -277,7 +281,7 @@ export const GUIDE_DETAILS = [{
     title: "Qual a importância do distanciamento social?",
     subtitle: "O distanciamento social é a melhor forma de combater esse inimigo, descubra o motivo!",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 1,
     audio: "",
     shareButtons: [{
       icon: "X",
@@ -287,8 +291,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/5_distanciamento_social.jpg",
+      alt: "Imagem de 4 pessoas atravessando a rua na faixa de pedestres, porém a imagem foi cortada e afastada em cada pessoa para demonstrar o distânciamento"
     },
     paragraphs: [{
       paragraph: "O distanciamento social é uma medida recomendada por especialistas em saúde do mundo inteiro para diminuir a proliferação da doença, a fim de desacelerar a curva do COVID-19. Isso vai evitar que o sistema de saúde colapse, garantindo que todas as pessoas tenham condições de serem tratadas. E isso é de extrema importância, pois mesmo a mortalidade de COVID-19 não ser tão alta, as pessoas infectadas que precisam de tratamento ficam internadas,  ocupando leitos hospitalares por alguns dias."
@@ -303,7 +308,7 @@ export const GUIDE_DETAILS = [{
     title: "Quais são os sintomas da COVID-19?",
     subtitle: "Os sintomas são os sinais perceptíveis que uma doença pode causar. Saiba quais são os sintomas da COVID-19",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 3,
     audio: "",
     shareButtons: [{
       icon: "X",
@@ -313,8 +318,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/6_sintomas.jpg",
+      alt: "Imagem de um termômetro"
     },
     paragraphs: [{
         paragraph: "Os sintomas principais da COVID-19 são:"
@@ -370,7 +376,7 @@ export const GUIDE_DETAILS = [{
     title: "A Covid-19 tem cura?",
     subtitle: "O novo coronavírus é perigoso, porém não é uma sentença",
     date: "2020-03-24",
-    readTime: 5,
+    readTime: 4,
     audio: "",
     shareButtons: [{
       icon: "X",
@@ -380,8 +386,9 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/2_thumb_transmissao.jpg",
+      alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
     },
     paragraphs: [{
         paragraph: "Sim, até dia 20/04 já são mais de 600 mil pessoas recuperadas no mundo."
@@ -427,15 +434,16 @@ export const GUIDE_DETAILS = [{
     readTime: 5,
     audio: "",
     shareButtons: [{
-      icon: "X",
+      icon: "icon-facebook",
       link: "#"
     }, {
-      icon: "O",
+      icon: "icon-whatsapp",
       link: "#"
     }],
     thumb: {
-      img: "http://placekitten.com/1000/1500",
-      description: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      
+      img: "../../assets/images/banners/2_thumb_transmissao.jpg",
+      alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
     },
     paragraphs: [{
         paragraph: "Os planos de saúde com segmentação ambulatorial, hospitalar ou referência, cobrem o teste para a COVID-19 se houver indicação médica, de acordo com o protocolo e as diretrizes definidas pelo Ministério da Saúde."

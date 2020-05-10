@@ -60,15 +60,42 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 10px 0;
+    margin: 30px 0 30px 0;
 
     >.listen {
-      >.text {
-        color: $color-primary;
-        font-weight: 600;
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      color: darken($color-primary, 5%);
+      transition: color .2s;
+      cursor: pointer;
+
+      &:hover{
+        color: darken($color-primary, 20%);
       }
 
-      >.play {}
+      >.text {
+        font-weight: 600;
+        margin-right: 10px;
+      }
+
+      >.play {
+        font-size: 28px;
+      }
+    }
+
+    >.share{
+      font-size: 28px;
+      
+      >.icon{
+        margin-left: 10px;
+        
+      transition: color .2s;
+
+      &:hover{
+        color: $color-primary;
+      }
+    }
     }
   }
 
@@ -97,6 +124,23 @@
     }
   }
 
+  .small-title{
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+
+  >.references{
+    .link{
+      color: $color-primary;
+      display: inline-block;
+      margin-bottom: 15px;
+      cursor: pointer;
+      font-size: 12px;
+    }
+  }
+
   >.guide {
     >.paragraph {
       line-height: 26px;
@@ -117,5 +161,18 @@
         margin-right: 5px;
       }
     }
+  }
+
+  >.share-next{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+
+    >.share{
+    >.small-title{
+margin-top: 0;
+    }
+  }
   }
 }

@@ -1,4 +1,4 @@
-<article class="guide-detail container">
+<article class="guide-detail container" #guia>
   <div class="header">
     <h1 class="title">{{ guide?.id }}. {{ guide?.title }}</h1>
     <h2 class="subtitle">{{ guide?.subtitle }}</h2>
@@ -8,20 +8,20 @@
   <div class="upper-thumb">
     <div class="listen">
       <span class="text">OUÇA AGORA</span>
-      <i class="play">O</i>
+      <i class="play icon-play"></i>
     </div>
 
 
     <div class="share">
-      <a [href]="shareBtn.link" *ngFor="let shareBtn of guide?.shareButtons">{{ shareBtn.icon }}</a>
+      <a class="icon" (click)="shareGuide(shareBtn.type, shareBtn.link)" *ngFor="let shareBtn of guide?.shareButtons"><i  [ngClass]="shareBtn.icon"></i></a>
     </div>
   </div>
 
     <div class="thumb">
       <div class="img-wrapper">
-        <img class="img" [src]="guide?.thumb?.img">
+        <img class="img" [alt]="guide?.thumb?.alt" [src]="guide?.thumb?.img">
       </div>
-      <p class="description">IMG: {{ guide?.thumb?.description}}</p>
+      <p class="description">IMG: {{ guide?.thumb?.alt}}</p>
     </div>
 
     <div class="guide">
@@ -31,7 +31,7 @@
 
     <h5 class="small-title">REFERÊNCIAS</h5>
     <ul class="references">
-      <li *ngFor="let link of guide?.references"><a [href]="link" target="_blank"></a></li>
+      <li *ngFor="let link of guide?.references"><a class="link" [href]="link" target="_blank">{{ link }}</a></li>
     </ul>
 
     <div class="share-next">
@@ -42,8 +42,9 @@
         </div>
       </div>
 
-      <a class="next" [href]="'#/' + nextGuide?.link">
-        <button class="btn" type="button">
+
+      <a *ngIf="nextGuide !== null" class="next" >
+        <button class="btn" type="button" (click)="goToNextGuide(nextGuide.id, guia)">
           {{ nextGuide?.id }}. {{ nextGuide?.title }} 
         </button>
       </a>

@@ -1,12 +1,14 @@
 export const ASIDEITEMS = [{
-    thumb: "http://placekitten.com/1000/1000",
+    thumb: "../../assets/images/thumb/covid_fakenews_noticias_falsas.jpg",
     title: "É FAKE NEWS!",
     subtitle: "NÃO ACREDITE EM TUDO QUE VOCÊ RECEBE. SAIBA AGORA O QUE É VERDADEIRO!",
+    alt: "Imagem ilustativa de uma pessoa interagindo com seu celular onde nele mostra notícias referentes ao vírus",
     link: "#"
   },
   {
-    thumb: "http://placekitten.com/700/700",
+    thumb: "../../assets/images/thumb/covid_infectados_mortes.jpg",
     title: "CONFIRA O NÚMERO DE INFECTADOS!",
+    alt: "Imagem ilustrativa de diversos caixões sendo tombados",
     subtitle: "NO BRASIL E NO MUNDO!",
     link: "#"
   }

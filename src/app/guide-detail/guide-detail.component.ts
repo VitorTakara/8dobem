@@ -7,38 +7,80 @@ import { ActivatedRoute, Router } from '@angular/router';
   templateUrl: './guide-detail.component.html',
   styleUrls: ['./guide-detail.component.scss']
 })
+
 export class GuideDetailComponent implements OnInit {
 
   constructor(private route: ActivatedRoute, private router: Router) {}
 
   private guides = GUIDE_DETAILS;
   public guide;
-  public nextGuide;
+  public nextGuide = null;
+  public GUIDE_ID;
 
   ngOnInit(): void {
     try {
       // Testa se ID é convertivel para Number
       if (!/^\d+$/.test(this.route.snapshot.paramMap.get("id")))
-        throw new Error()
+        throw new Error();
     } catch {
-      console.error("O valor passado de parametro provavelmente não é um número válido. Irá redirecionar para HOME")
-      this.router.navigate(['home'])
+      console.error("O valor passado de parametro provavelmente não é um número válido. Irá redirecionar para HOME");
+      this.router.navigate(['home']);
     }
 
-    const GUIDE_ID = parseFloat(this.route.snapshot.paramMap.get("id"))
+    this.GUIDE_ID = parseFloat(this.route.snapshot.paramMap.get("id"));
 
-    if (GUIDE_ID > 8)
-      this.router.navigate(['home']) // Apenas um fallback se o ID for maior que 10. (Não temos ainda mais do que 10 guides)
+    // Carrega o Guia
+    this.loadGuide();
+  }
+
+  loadGuide(){
+    const GUIDE_ID = this.GUIDE_ID;
+
+    if (GUIDE_ID > 8) {
+      this.router.navigate(['home']); // Apenas um fallback se o ID for maior que 8. (Não temos ainda mais do que 8 guides)
+    }
 
     // Itera guides, atribui guide de acordo com o ID atual e seleciona o próximo guide
     for (let i in this.guides) {
       if (this.guides[i].id === GUIDE_ID) {
-        this.guide = this.guides[i]
+        this.guide = this.cloneObject(this.guides[i]);
 
-        if (GUIDE_ID < 8)
-          this.nextGuide = this.guides[i + 1]
+        if (GUIDE_ID < 8) {
+          const NEXT_GUIDE_ID = parseInt(i) + 1;
+          this.nextGuide = this.cloneObject(this.guides[NEXT_GUIDE_ID]);
+        } else{
+          this.nextGuide = null;
+        }
       }
     }
   }
 
+  goToNextGuide(id, el){
+    this.router.navigate([`guia/${id}`]);
+    this.GUIDE_ID = id;
+    this.loadGuide();
+    this.scrollToElement(el)
+  }
+
+  cloneObject(src) {
+    return JSON.parse(JSON.stringify(src));
+  }
+
+  scrollToElement(el): void {
+    setTimeout(() => {
+      el.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
+    }, 100);
+  }
+
+  shareGuide(type, url){
+    if(type === "facebook"){
+      let w = 630;
+      let h = 360;
+
+      let left = screen.width/2 - 630/2;
+      let top = screen.height/2 - 360/2;
+
+      window.open('http://www.facebook.com/sharer.php?u='+url, 'Compartilhar no facebook', 'toolbar=no, location=no, directories=no, status=no, ' + 'menubar=no, scrollbars=yes, resizable=no, copyhistory=no, width='+w+ ', height=' + h + ', top=' + top + ', left=' + left);
+    }
+  }
 }
