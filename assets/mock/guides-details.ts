@@ -7,11 +7,10 @@ export const GUIDE_DETAILS = [{
     audio: "",
     shareButtons: [{
       icon: "icon-facebook",
-      type: "facebook",
-      link: "https://www.guiacovid19.com.br/%23/guia/1"
+      type: "facebook"
     }, {
       icon: "icon-whatsapp",
-      link: "#"
+      type: "whatsapp"
     }],
     thumb: {
       img: "../../assets/images/banners/1_o_que_e_covid.jpg",
@@ -37,11 +36,11 @@ export const GUIDE_DETAILS = [{
     readTime: 2,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/2_como_e_transmitido.jpg",
@@ -71,11 +70,11 @@ export const GUIDE_DETAILS = [{
     readTime: 5,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/3_grupo_risco.jpg",
@@ -176,11 +175,11 @@ export const GUIDE_DETAILS = [{
     readTime: 6,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/4_protecao.jpg",
@@ -285,11 +284,11 @@ export const GUIDE_DETAILS = [{
     readTime: 1,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/5_distanciamento_social.jpg",
@@ -312,11 +311,11 @@ export const GUIDE_DETAILS = [{
     readTime: 3,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/6_sintomas.jpg",
@@ -380,11 +379,11 @@ export const GUIDE_DETAILS = [{
     readTime: 4,
     audio: "",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/2_thumb_transmissao.jpg",
@@ -428,10 +427,10 @@ export const GUIDE_DETAILS = [{
     audio: "",
     shareButtons: [{
       icon: "icon-facebook",
-      link: "#"
+      type: "facebook"
     }, {
       icon: "icon-whatsapp",
-      link: "#"
+      type: "whatsapp"
     }],
     thumb: {
       imgName: "banners/2_thumb_transmissao.jpg",
