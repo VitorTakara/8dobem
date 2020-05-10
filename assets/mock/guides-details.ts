@@ -8,13 +8,14 @@ export const GUIDE_DETAILS = [{
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook",
-      link: "http://www.guiacovid19.com.br/guia/1"
+      link: "http://www.guiacovid19.com.br/%23/guia/1"
     }, {
       icon: "icon-whatsapp",
       link: "#"
     }],
     thumb: {
       img: "../../assets/images/banners/1_o_que_e_covid.jpg",
+      imgName: "banners/1_o_que_e_covid.jpg",
       alt: "Imagem ilustrativa de uma pessoa com equipamento de proteção segurando um sugador de vírus"
     },
     paragraphs: [{
@@ -43,7 +44,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/2_como_e_transmitido.jpg",
       img: "../../assets/images/banners/2_como_e_transmitido.jpg",
       alt: "Imagem ilustrativa de pessoas aglomeradas em um espaço vúlnerável"
     },
@@ -77,7 +78,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/3_grupo_risco.jpg",
       img: "../../assets/images/banners/3_grupo_risco.jpg",
       alt: "Imagem de um senhor sentado tomando seu vinho dentro de um restaurante ou bar"
     },
@@ -182,7 +183,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/4_protecao.jpg",
       img: "../../assets/images/banners/4_protecao.jpg",
       alt: "Imagem de uma escultura utilizando um máscara de proteção"
     },
@@ -291,7 +292,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/5_distanciamento_social.jpg",
       img: "../../assets/images/banners/5_distanciamento_social.jpg",
       alt: "Imagem de 4 pessoas atravessando a rua na faixa de pedestres, porém a imagem foi cortada e afastada em cada pessoa para demonstrar o distânciamento"
     },
@@ -318,7 +319,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/6_sintomas.jpg",
       img: "../../assets/images/banners/6_sintomas.jpg",
       alt: "Imagem de um termômetro"
     },
@@ -386,7 +387,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/2_thumb_transmissao.jpg",
       img: "../../assets/images/banners/2_thumb_transmissao.jpg",
       alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
     },
@@ -409,14 +410,6 @@ export const GUIDE_DETAILS = [{
         paragraph: "Especialistas indicam que se todos os países seguirem as recomendações da OMS, o estado de pandemia (contaminação em escala mundial de uma doença) terminará em junho."
       }
     ],
-
-
-
-
-
-
-
-
     references: ["https://oglobo.globo.com/sociedade/coronavirus/epidemiologista-chines-que-lidou-com-sars-afirma-que-pandemia-do-coronavirus-terminara-em-junho-24300192",
       "https://saude.abril.com.br/medicina/tratamento-do-novo-coronavirus/",
       "https://www.abrale.org.br/revista-online/coronavirus-no-brasil-e-imunidade/",
@@ -441,7 +434,7 @@ export const GUIDE_DETAILS = [{
       link: "#"
     }],
     thumb: {
-      
+      imgName: "banners/2_thumb_transmissao.jpg",
       img: "../../assets/images/banners/2_thumb_transmissao.jpg",
       alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
     },

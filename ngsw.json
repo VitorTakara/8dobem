@@ -1,0 +1,132 @@
+{
+  "configVersion": 1,
+  "timestamp": 1589122343466,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main-es2015.2736ce3e4d9dbdb995a5.js",
+        "/main-es5.2736ce3e4d9dbdb995a5.js",
+        "/manifest.webmanifest",
+        "/polyfills-es2015.1f913f16a2d346cc8bdc.js",
+        "/polyfills-es5.1a3c78b07cd6f16c6e9a.js",
+        "/runtime-es2015.0811dcefd377500b5b1a.js",
+        "/runtime-es5.0811dcefd377500b5b1a.js",
+        "/styles.1855b3c778ff8de755be.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/assets/grlyphter-font/css/icons.css",
+        "/assets/grlyphter-font/fonts/icons.eot",
+        "/assets/grlyphter-font/fonts/icons.svg",
+        "/assets/grlyphter-font/fonts/icons.ttf",
+        "/assets/grlyphter-font/fonts/icons.woff",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/images/banners/1_o_que_e_covid.jpg",
+        "/assets/images/banners/2_como_e_transmitido.jpg",
+        "/assets/images/banners/3_grupo_risco.jpg",
+        "/assets/images/banners/4_protecao.jpg",
+        "/assets/images/banners/5_distanciamento_social.jpg",
+        "/assets/images/banners/6_sintomas.jpg",
+        "/assets/images/thumb/1_thumb_o_que_e_covid.jpg",
+        "/assets/images/thumb/2_thumb_transmissao.jpg",
+        "/assets/images/thumb/3_thumb_grupo_risco.jpg",
+        "/assets/images/thumb/4_thumb_protecao.jpg",
+        "/assets/images/thumb/5_thumb_distanciamento_social.jpg",
+        "/assets/images/thumb/6_thumb_sintomas.jpg",
+        "/assets/images/thumb/covid_fakenews_noticias_falsas.jpg",
+        "/assets/images/thumb/covid_infectados_mortes.jpg",
+        "/assets/mock/aside.ts",
+        "/assets/mock/guides-details.ts",
+        "/assets/mock/guides.ts",
+        "/icons.2101ae13b2924c54d781.woff",
+        "/icons.5933d5f340461c36a3ba.svg",
+        "/icons.a3a1660b9c64b64c22b5.eot",
+        "/icons.d4cf67d0101360e19733.ttf"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/grlyphter-font/css/icons.css": "69848c681755769c5c10dddf7013ec49b7514d2c",
+    "/assets/grlyphter-font/fonts/icons.eot": "8b3dbc63a0521e3d792cdd4626978ce082ac2d54",
+    "/assets/grlyphter-font/fonts/icons.svg": "00325376b59f88bb99324e52fb96eef2875d1312",
+    "/assets/grlyphter-font/fonts/icons.ttf": "c29ebfd80d071c64449a81ded6843b19b0009501",
+    "/assets/grlyphter-font/fonts/icons.woff": "1b28ef5b0305e72e627d32844e22dc2e0336ac72",
+    "/assets/icons/icon-128x128.png": "dae3b6ed49bdaf4327b92531d4b5b4a5d30c7532",
+    "/assets/icons/icon-144x144.png": "b0bd89982e08f9bd2b642928f5391915b74799a7",
+    "/assets/icons/icon-152x152.png": "7479a9477815dfd9668d60f8b3b2fba709b91310",
+    "/assets/icons/icon-192x192.png": "1abd80d431a237a853ce38147d8c63752f10933b",
+    "/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "/assets/icons/icon-72x72.png": "c457e56089a36952cd67156f9996bc4ce54a5ed9",
+    "/assets/icons/icon-96x96.png": "3914125a4b445bf111c5627875fc190f560daa41",
+    "/assets/images/banners/1_o_que_e_covid.jpg": "614f1a4317294cdf3774cc6ee71fd4f79f9e8801",
+    "/assets/images/banners/2_como_e_transmitido.jpg": "ad4a0d65e8120df3d3aa5711146d3284aca33ae3",
+    "/assets/images/banners/3_grupo_risco.jpg": "7d71eee29d298edd57e29a7f8f064892995598ce",
+    "/assets/images/banners/4_protecao.jpg": "939965b033e6908988ef5c73bd53e984befb6783",
+    "/assets/images/banners/5_distanciamento_social.jpg": "ae9fd010e85d5c11eae526def2f127c25e292a71",
+    "/assets/images/banners/6_sintomas.jpg": "56fd948e2b8eba6f432a8976c9b7f52c5082edd9",
+    "/assets/images/thumb/1_thumb_o_que_e_covid.jpg": "9e23641c0d550147ff3dd5beedb2b6d3b919744a",
+    "/assets/images/thumb/2_thumb_transmissao.jpg": "fdbca3ffaa6b52bf11b824b2fdd6cab447095064",
+    "/assets/images/thumb/3_thumb_grupo_risco.jpg": "410ead9c3f82ed4d3ae05814f1e9f61f20be2970",
+    "/assets/images/thumb/4_thumb_protecao.jpg": "b609c0ab2b5e6411c5c318bf2c8aa7a98ca108ac",
+    "/assets/images/thumb/5_thumb_distanciamento_social.jpg": "67c29b0eaa180c7ec70a809d231d89be0d07d65d",
+    "/assets/images/thumb/6_thumb_sintomas.jpg": "071ecaf1869bc0e317e0372f918f2d65f0cd9ccb",
+    "/assets/images/thumb/covid_fakenews_noticias_falsas.jpg": "fab2620c8d94aa59c8dec9c9e7636006cc3ac2e2",
+    "/assets/images/thumb/covid_infectados_mortes.jpg": "c48d0f5e65757463aa0a4464031c32fd3addbe5a",
+    "/assets/mock/aside.ts": "f412d6b37e83e5cdf16fc4f737be5e7254550219",
+    "/assets/mock/guides-details.ts": "e2dfa3c4e237f76d5e99d5a4d7e22d34976af84b",
+    "/assets/mock/guides.ts": "ca42cd7d33eb1a3d5dfadef2110095b2e12e68be",
+    "/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "/icons.2101ae13b2924c54d781.woff": "1b28ef5b0305e72e627d32844e22dc2e0336ac72",
+    "/icons.5933d5f340461c36a3ba.svg": "00325376b59f88bb99324e52fb96eef2875d1312",
+    "/icons.a3a1660b9c64b64c22b5.eot": "8b3dbc63a0521e3d792cdd4626978ce082ac2d54",
+    "/icons.d4cf67d0101360e19733.ttf": "c29ebfd80d071c64449a81ded6843b19b0009501",
+    "/index.html": "15f29d0ffffc3e50d83bd13dff99f7af0ca3b1d5",
+    "/main-es2015.2736ce3e4d9dbdb995a5.js": "b1bd51dcdef8bb445040c4ac70b614f61d8adb73",
+    "/main-es5.2736ce3e4d9dbdb995a5.js": "0413faf3085c2c230b56c224a127316412338147",
+    "/manifest.webmanifest": "74826880d8dd30cffff6e81779bdb8b610ab581a",
+    "/polyfills-es2015.1f913f16a2d346cc8bdc.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
+    "/polyfills-es5.1a3c78b07cd6f16c6e9a.js": "e5472003c8575a8fca7583648df3905038faeb18",
+    "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.1855b3c778ff8de755be.css": "175d71b6d9040323a0d1dfde700f47beca83147b"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
