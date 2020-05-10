@@ -8,7 +8,7 @@ export const GUIDE_DETAILS = [{
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook",
-      link: "http://www.guiacovid19.com.br/%23/guia/1"
+      link: "https://www.guiacovid19.com.br/%23/guia/1"
     }, {
       icon: "icon-whatsapp",
       link: "#"
