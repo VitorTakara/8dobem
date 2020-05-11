@@ -25,7 +25,7 @@
 
     <!-- Fake news e Mapa Interativo-->
     <div class="aside">
-      <aside class="aside-cards" *ngFor="let asideItem of asideItems">
+      <aside class="aside-cards" *ngFor="let asideItem of asideItems" [routerLink]="[asideItem.route]">
         <article class="card">
           <img class="background-img" [alt]="asideItem.alt" [src]="asideItem.thumb">
           <div class="title-description">
