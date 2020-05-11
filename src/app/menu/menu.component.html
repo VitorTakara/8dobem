@@ -1,12 +1,16 @@
+<span style="display: none" routerLink="/guia" routerLinkActive #guia="routerLinkActive"></span>
+<span style="display: none"  routerLink="/home" routerLinkActive #home="routerLinkActive"></span>
+
 <ng-template #links>
-  <a class="link" routerLink="/home" routerLinkActive="-active">ENTENDA TUDO SOBRE</a>
-  <a class="link" href="#">FAKE NEWS</a>
+  <a class="link" routerLink="/home" [ngClass]="{'-active': guia.isActive || home.isActive }">ENTENDA TUDO SOBRE</a>
+  <a class="link" routerLink="/fakenews" routerLinkActive="-active">FAKE NEWS</a>
+  <a class="link" routerLink="/mapa" routerLinkActive="-active">MAPA</a>
 </ng-template>
 
-<header class="menu ">
+<header class="menu fadeIn">
   <div class="wrapper container">
-    <div class="logo">
-      <img class="image" src="https://placekitten.com/260/120">
+    <div class="logo" [routerLink]="['/home']">
+      <img class="image" src="../../assets/images/logo_guia_covid.svg">
     </div>
 
     <nav class="links-desktop">

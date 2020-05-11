@@ -20,6 +20,7 @@
 
     >.logo {
       width: 120px;
+      cursor: pointer;
       margin-left: 20px;
 
       >.image {
@@ -35,7 +36,11 @@
       }
 
       >.link {
-        padding: 20px 25px;
+        padding: 20px 10px;
+
+        @media(min-width: $laptop) {
+          padding: 20px 25px;
+        }
 
         &.-active {
           color: $color-primary;

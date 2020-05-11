@@ -1,5 +1,5 @@
 export const ASIDEITEMS = [{
-    thumb: "../../assets/images/thumb/covid_fakenews_noticias_falsas.jpg",
+    thumb: "../../assets/images/thumb/covid_fakenews_verao.jpg",
     title: "É FAKE NEWS!",
     subtitle: "NÃO ACREDITE EM TUDO QUE VOCÊ RECEBE. SAIBA AGORA O QUE É VERDADEIRO!",
     alt: "Imagem ilustativa de uma pessoa interagindo com seu celular onde nele mostra notícias referentes ao vírus",

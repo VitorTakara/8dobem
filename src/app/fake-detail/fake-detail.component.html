@@ -1,0 +1,41 @@
+
+
+<article class="page-detail container fadeIn" *ngIf="guide" #guia>
+    <div class="header">
+      <h1 class="title">{{ guide?.id }}. {{ guide?.title }}</h1>
+      <h2 class="subtitle">{{ guide?.subtitle }}</h2>
+      <time class="time">{{ guide?.date }} - {{ guide?.readTime }} min de leitura</time>
+    </div>
+  
+    <div class="upper-thumb">
+      <div class="listen">
+        Áudio ainda não disponível :(
+      </div>
+  
+  
+      <div class="share">
+        <a class="icon" (click)="shareGuide(shareBtn.type)" *ngFor="let shareBtn of guide?.shareButtons"><i  [ngClass]="shareBtn.icon"></i></a>
+      </div>
+    </div>
+  
+      <div class="thumb">
+        <div class="img-wrapper">
+          <img class="img" [alt]="guide?.thumb?.alt" [src]="guide?.thumb?.img">
+        </div>
+        <p class="description">IMG: {{ guide?.thumb?.alt}}</p>
+      </div>
+  
+      <div class="guide">
+        <p class="paragraph" *ngFor="let p of guide?.paragraphs" [class.-is-step]="p.step" [class.-is-last-step]="p.isLastStep">
+          <span class="step" *ngIf="p.step">{{p.step}}</span> {{p.paragraph}}</p>
+      </div>
+  
+      <h5 class="small-title">REFERÊNCIAS</h5>
+      <ul class="references">
+        <li *ngFor="let link of guide?.references"><a class="link" [href]="link" target="_blank">{{ link }}</a></li>
+      </ul>
+
+      <div onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSfayn6fvTKbGFbpYJnKIlAajF8EKFhSHqYEql-Aw3Pi6x00xw/viewform?usp=sf_link')" class="disclaimer">
+        Nossa seção de Fake News ainda está em desenvolvimento! Fique a vontade para contribuir com uma sugestão ou denúncia de fake news clicando aqui! ;)
+      </div>
+  </article>

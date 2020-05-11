@@ -1,17 +1,22 @@
-.btn{
-    background: $color-primary;
-    color: white;
-    font-size: 24px;
-    text-align: left;
-    max-width: 300px;
-    font-weight: 800;
-    border: none;
-    border-radius: 3px;
-    padding: 15px 30px;
-    transition: .2s;
-    cursor: pointer;
+.btn {
+  background: $color-primary;
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  max-width: 300px;
+  font-weight: 800;
+  border: none;
+  border-radius: 3px;
+  padding: 15px 30px;
+  transition: .2s;
+  cursor: pointer;
 
-    &:hover{
-        background: darken($color-primary, 5%);
-    }
+  &.-next-guide {
+    font-size: 17px;
+    max-width: 400px;
+  }
+
+  &:hover {
+    background: darken($color-primary, 5%);
+  }
 }

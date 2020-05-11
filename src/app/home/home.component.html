@@ -1,4 +1,4 @@
-<div class="home">
+<div class="home fadeIn">
   <section class="start">
     <div class="main">
       <div class="title-subtitle">
@@ -8,7 +8,7 @@
 
       <!-- Guide -->
       <section class="small-cards">
-        <article class="card" *ngFor="let guide of guides">
+        <article class="card" *ngFor="let guide of guides" [routerLink]="['/guia', guide.id]">
           <div class="thumbnail">
             <img class="image" [src]="guide.thumb" [alt]="guide.alt">
           </div>
@@ -16,7 +16,7 @@
           <div class="info">
             <h3 class="title">{{ guide.title }}</h3>
             <p class="description">{{ guide.description }}</p>
-            <a [href]="'#/' + guide.link" class="link">LER MAIS</a>
+            <span class="link">LER MAIS</span>
           </div>
         </article>
       </section>

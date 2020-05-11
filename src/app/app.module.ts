@@ -10,6 +10,8 @@ import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
 import { HamburgerIconComponent } from './hamburger-icon/hamburger-icon.component';
 import { GuideDetailComponent } from './guide-detail/guide-detail.component';
+import { FakeDetailComponent } from './fake-detail/fake-detail.component';
+import { MapaComponent } from './mapa/mapa.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { GuideDetailComponent } from './guide-detail/guide-detail.component';
     HomeComponent,
     FooterComponent,
     HamburgerIconComponent,
-    GuideDetailComponent
+    GuideDetailComponent,
+    FakeDetailComponent,
+    MapaComponent
   ],
   imports: [
     BrowserModule,

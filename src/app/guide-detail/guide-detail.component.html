@@ -1,19 +1,22 @@
-<article class="guide-detail container" #guia>
+<article class="page-detail container fadeIn" *ngIf="guide" #guia>
   <div class="header">
     <h1 class="title">{{ guide?.id }}. {{ guide?.title }}</h1>
     <h2 class="subtitle">{{ guide?.subtitle }}</h2>
-    <time class="time">{{ guide?.date | date }} - {{ guide?.readTime }} min de leitura</time>
+    <time class="time">{{ guide?.date }} - {{ guide?.readTime }} min de leitura</time>
   </div>
 
   <div class="upper-thumb">
     <div class="listen">
       <span class="text">OUÇA AGORA</span>
-      <i class="play icon-play"></i>
+      <!-- <i class="play icon-play"></i> -->
+      <audio controls>
+        <source [src]="guide.audio" type="audio/mp3">
+      </audio>
     </div>
 
 
     <div class="share">
-      <a class="icon" (click)="shareGuide(shareBtn.type, shareBtn.link)" *ngFor="let shareBtn of guide?.shareButtons"><i  [ngClass]="shareBtn.icon"></i></a>
+      <a class="icon" (click)="shareGuide(shareBtn.type)" *ngFor="let shareBtn of guide?.shareButtons"><i  [ngClass]="shareBtn.icon"></i></a>
     </div>
   </div>
 
@@ -37,14 +40,14 @@
     <div class="share-next">
       <div class="share">
         <h5 class="small-title">COMPARTILHE E AJUDE</h5>
-        <div class="share">
-          <a [href]="shareBtn.link" *ngFor="let shareBtn of guide?.shareButtons">{{ shareBtn.icon }}</a>
+        <div>
+          <a class="icon" (click)="shareGuide(shareBtn.type)" *ngFor="let shareBtn of guide?.shareButtons"><i  [ngClass]="shareBtn.icon"></i></a>
         </div>
       </div>
 
 
       <a *ngIf="nextGuide !== null" class="next" >
-        <button class="btn" type="button" (click)="goToNextGuide(nextGuide.id, guia)">
+        <button class="btn -next-guide" type="button" (click)="goToNextGuide(nextGuide.id, guia)">
           {{ nextGuide?.id }}. {{ nextGuide?.title }} 
         </button>
       </a>

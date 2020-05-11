@@ -1,0 +1,201 @@
+.page-detail {
+  padding: 10px 15px;
+
+
+  @media(min-width: $desktop) {
+    padding: 50px 5%;
+  }
+
+  @media(min-width: $large-desktop) {
+    padding: 50px 15%;
+  }
+
+  >.header {
+    >.title {
+      font-size: 30px;
+      line-height: 30px;
+      margin-bottom: 10px;
+      font-weight: 800;
+
+      @media(min-width: $tablet) {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 15px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 42px;
+        line-height: 40px;
+        margin-bottom: 25px;
+      }
+    }
+
+    >.subtitle {
+      font-size: 15px;
+      color: $color-gray;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+
+      @media(min-width: $tablet) {
+        font-size: 18px;
+        margin-bottom: 10px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 21px;
+        margin-bottom: 20px;
+      }
+    }
+
+    >.time {
+      font-weight: 500;
+      font-size: 12px;
+      color: $color-gray;
+
+      @media(min-width: $tablet) {
+        font-size: 13px;
+      }
+
+      @media(min-width: $desktop) {
+        font-size: 14px;
+      }
+    }
+  }
+
+  >.upper-thumb {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 0 30px 0;
+
+    >.listen {
+      font-size: 20px;
+      display: flex;
+      align-items: center;
+      color: darken($color-primary, 5%);
+      transition: color .2s;
+      cursor: pointer;
+
+      &:hover {
+        color: darken($color-primary, 20%);
+      }
+
+      >.text {
+        font-weight: 600;
+        margin-right: 10px;
+      }
+
+      >.play {
+        font-size: 28px;
+      }
+    }
+
+    >.share {
+      font-size: 28px;
+
+      >.icon {
+        cursor: pointer;
+        margin-left: 10px;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+    }
+  }
+
+  >.thumb {
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    >.img-wrapper {
+      position: relative;
+      height: 250px;
+      overflow: hidden;
+
+      >.img {
+        top: 50%;
+        left: -50%;
+        transform: translateY(-50%);
+        position: absolute;
+        min-height: 100%;
+
+        @media(min-width: $large-mobile) {
+          left: 0;
+        }
+      }
+    }
+
+    >.description {
+      margin-top: 7px;
+      font-size: 13px;
+      color: $color-gray;
+    }
+  }
+
+  .small-title {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 25px;
+    margin-top: 50px;
+  }
+
+  >.references {
+    .link {
+      color: $color-primary;
+      display: inline-block;
+      margin-bottom: 15px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+  }
+
+  >.guide {
+    >.paragraph {
+      line-height: 26px;
+      margin-bottom: 20px;
+
+      &.-is-step {
+        margin-bottom: 0;
+      }
+
+      &.-is-last-step {
+        margin-bottom: 20px;
+      }
+
+      >.step {
+        font-weight: 800;
+        color: $color-primary;
+        font-size: 20px;
+        margin-right: 5px;
+      }
+    }
+  }
+
+  >.share-next {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 30px;
+
+    >.share {
+      font-size: 28px;
+
+      .icon {
+        cursor: pointer;
+        margin-right: 10px;
+        transition: color .2s;
+
+        &:hover {
+          color: $color-primary;
+        }
+      }
+
+      >.small-title {
+        margin-bottom: 10px;
+        margin-top: 0;
+      }
+    }
+  }
+}

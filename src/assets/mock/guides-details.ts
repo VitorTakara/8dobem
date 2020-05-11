@@ -2,16 +2,15 @@ export const GUIDE_DETAILS = [{
     id: 1,
     title: "O QUE É A COVID-19",
     subtitle: "Saiba o que é COVID-19, de onde veio e como chegou até o Brasil",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 2,
-    audio: "",
+    audio: "../../assets/audios/1.O que e covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
-      type: "facebook",
-      link: "http://www.guiacovid19.com.br/#/guia/1"
+      type: "facebook"
     }, {
       icon: "icon-whatsapp",
-      link: "#"
+      type: "whatsapp"
     }],
     thumb: {
       img: "../../assets/images/banners/1_o_que_e_covid.jpg",
@@ -32,18 +31,17 @@ export const GUIDE_DETAILS = [{
     id: 2,
     title: "Como a COVID-19 é transmitida?",
     subtitle: "O SARS-cov-2 é um virus respiratório, descubra como acontece a transmissão.",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 2,
-    audio: "",
+    audio: "../../assets/audios/2. Como a covid-19 e transmitida.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
       img: "../../assets/images/banners/2_como_e_transmitido.jpg",
       alt: "Imagem ilustrativa de pessoas aglomeradas em um espaço vúlnerável"
     },
@@ -66,18 +64,17 @@ export const GUIDE_DETAILS = [{
     id: 3,
     title: "O que são os Grupos de Risco?",
     subtitle: "As pessoas mais frágeis devem ser protegidas, saiba quem são elas",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 5,
-    audio: "",
+    audio: "../../assets/audios/3. O que sao grupos de risco.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
       img: "../../assets/images/banners/3_grupo_risco.jpg",
       alt: "Imagem de um senhor sentado tomando seu vinho dentro de um restaurante ou bar"
     },
@@ -171,18 +168,17 @@ export const GUIDE_DETAILS = [{
     id: 4,
     title: "Como posso me proteger e proteger minha família do novo Coronavírus?",
     subtitle: "Aprenda medidas fundamentais para proteger a si e todos que você ama!",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 6,
-    audio: "",
+    audio: "../../assets/audios/XXXX.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
       img: "../../assets/images/banners/4_protecao.jpg",
       alt: "Imagem de uma escultura utilizando um máscara de proteção"
     },
@@ -280,18 +276,17 @@ export const GUIDE_DETAILS = [{
     id: 5,
     title: "Qual a importância do distanciamento social?",
     subtitle: "O distanciamento social é a melhor forma de combater esse inimigo, descubra o motivo!",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 1,
-    audio: "",
+    audio: "../../assets/audios/XXXX.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
       img: "../../assets/images/banners/5_distanciamento_social.jpg",
       alt: "Imagem de 4 pessoas atravessando a rua na faixa de pedestres, porém a imagem foi cortada e afastada em cada pessoa para demonstrar o distânciamento"
     },
@@ -307,18 +302,17 @@ export const GUIDE_DETAILS = [{
     id: 6,
     title: "Quais são os sintomas da COVID-19?",
     subtitle: "Os sintomas são os sinais perceptíveis que uma doença pode causar. Saiba quais são os sintomas da COVID-19",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 3,
-    audio: "",
+    audio: "../../assets/audios/XXXX.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
       img: "../../assets/images/banners/6_sintomas.jpg",
       alt: "Imagem de um termômetro"
     },
@@ -375,20 +369,19 @@ export const GUIDE_DETAILS = [{
     id: 7,
     title: "A Covid-19 tem cura?",
     subtitle: "O novo coronavírus é perigoso, porém não é uma sentença",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 4,
-    audio: "",
+    audio: "../../assets/audios/XXXX.mp3",
     shareButtons: [{
-      icon: "X",
-      link: "#"
+      icon: "icon-facebook",
+      type: "facebook"
     }, {
-      icon: "O",
-      link: "#"
+      icon: "icon-whatsapp",
+      type: "whatsapp"
     }],
     thumb: {
-      
-      img: "../../assets/images/banners/2_thumb_transmissao.jpg",
-      alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      img: "../../assets/images/banners/7_cura.jpg",
+      alt: "Imagem de duas pessoas se abraçando"
     },
     paragraphs: [{
         paragraph: "Sim, até dia 20/04 já são mais de 600 mil pessoas recuperadas no mundo."
@@ -409,14 +402,6 @@ export const GUIDE_DETAILS = [{
         paragraph: "Especialistas indicam que se todos os países seguirem as recomendações da OMS, o estado de pandemia (contaminação em escala mundial de uma doença) terminará em junho."
       }
     ],
-
-
-
-
-
-
-
-
     references: ["https://oglobo.globo.com/sociedade/coronavirus/epidemiologista-chines-que-lidou-com-sars-afirma-que-pandemia-do-coronavirus-terminara-em-junho-24300192",
       "https://saude.abril.com.br/medicina/tratamento-do-novo-coronavirus/",
       "https://www.abrale.org.br/revista-online/coronavirus-no-brasil-e-imunidade/",
@@ -430,20 +415,19 @@ export const GUIDE_DETAILS = [{
     id: 8,
     title: "O que mais preciso saber sobre a COVID-19?",
     subtitle: "Mantenha uma vida saudável, durante a quarentena. Se cuide!",
-    date: "2020-03-24",
+    date: "Mai 11, 2020",
     readTime: 5,
-    audio: "",
+    audio: "../../assets/audios/XXXX.mp3",
     shareButtons: [{
       icon: "icon-facebook",
-      link: "#"
+      type: "facebook"
     }, {
       icon: "icon-whatsapp",
-      link: "#"
+      type: "whatsapp"
     }],
     thumb: {
-      
-      img: "../../assets/images/banners/2_thumb_transmissao.jpg",
-      alt: "PESSOAS FAZENDO TRAQUINAGENS NO CENTRO"
+      img: "../../assets/images/banners/8_o_que_saber.jpg",
+      alt: "Imagem de uma ilustração de uma cabeça com uma fechadura dentro da mesma"
     },
     paragraphs: [{
         paragraph: "Os planos de saúde com segmentação ambulatorial, hospitalar ou referência, cobrem o teste para a COVID-19 se houver indicação médica, de acordo com o protocolo e as diretrizes definidas pelo Ministério da Saúde."
