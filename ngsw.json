@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1589158154294,
+  "timestamp": 1589159545356,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -10,14 +10,14 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main-es2015.a318bbdf542fdecc49c3.js",
-        "/main-es5.a318bbdf542fdecc49c3.js",
+        "/main-es2015.a18467f75011d20c733e.js",
+        "/main-es5.a18467f75011d20c733e.js",
         "/manifest.webmanifest",
         "/polyfills-es2015.1f913f16a2d346cc8bdc.js",
         "/polyfills-es5.1a3c78b07cd6f16c6e9a.js",
         "/runtime-es2015.0811dcefd377500b5b1a.js",
         "/runtime-es5.0811dcefd377500b5b1a.js",
-        "/styles.a7dbbbf8a7f3532f4872.css"
+        "/styles.afaa729d2bb5ec591826.css"
       ],
       "patterns": []
     },
@@ -116,7 +116,7 @@
     "/assets/images/thumb/covid_fakenews_noticias_falsas.jpg": "fab2620c8d94aa59c8dec9c9e7636006cc3ac2e2",
     "/assets/images/thumb/covid_fakenews_verao.jpg": "1715b342754327415046b944390b5ff483f62160",
     "/assets/images/thumb/covid_infectados_mortes.jpg": "c48d0f5e65757463aa0a4464031c32fd3addbe5a",
-    "/assets/mock/aside.ts": "71544d9cc403be573748f26f9c28eebc02f15e12",
+    "/assets/mock/aside.ts": "0d18efaab1cc02a73755a4c468c36c5007d88509",
     "/assets/mock/fake-details.ts": "eb367b0bd968aa4757d038912ad02a547c1a7388",
     "/assets/mock/guides-details.ts": "31456674b328679bd1c2cca71e9dc670a60da5f0",
     "/assets/mock/guides.ts": "c67af17b1a2e9179d9b979c001f586226360ce16",
@@ -125,15 +125,15 @@
     "/icons.5933d5f340461c36a3ba.svg": "00325376b59f88bb99324e52fb96eef2875d1312",
     "/icons.a3a1660b9c64b64c22b5.eot": "8b3dbc63a0521e3d792cdd4626978ce082ac2d54",
     "/icons.d4cf67d0101360e19733.ttf": "c29ebfd80d071c64449a81ded6843b19b0009501",
-    "/index.html": "f14c38d51473c86539caf0c410306813082f1919",
-    "/main-es2015.a318bbdf542fdecc49c3.js": "1d5448ca5d3182fbce8e33d401213f778d9815d2",
-    "/main-es5.a318bbdf542fdecc49c3.js": "49df327cbfce0bd439062c6ef5c4538b53ea7c03",
+    "/index.html": "181d963afc2dd75804e83b2d944b42f1f48d459a",
+    "/main-es2015.a18467f75011d20c733e.js": "f6cc5f65876b5d6843d2ac9bba9fe61613e5fdf9",
+    "/main-es5.a18467f75011d20c733e.js": "c761d205292f2110348a9cbd92aa21161011f4e3",
     "/manifest.webmanifest": "74826880d8dd30cffff6e81779bdb8b610ab581a",
     "/polyfills-es2015.1f913f16a2d346cc8bdc.js": "72ad4ccc0a3916ae4598199447cdeadd6d380570",
     "/polyfills-es5.1a3c78b07cd6f16c6e9a.js": "e5472003c8575a8fca7583648df3905038faeb18",
     "/runtime-es2015.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
     "/runtime-es5.0811dcefd377500b5b1a.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
-    "/styles.a7dbbbf8a7f3532f4872.css": "67d17eeb211cf80642a1718d2da8ab214a73731c"
+    "/styles.afaa729d2bb5ec591826.css": "8b25f598ef2c7f9362531116ddf18cc1a1a3fdea"
   },
   "navigationUrls": [
     {
