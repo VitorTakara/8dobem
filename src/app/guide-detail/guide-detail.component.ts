@@ -36,6 +36,7 @@ export class GuideDetailComponent implements OnInit {
   loadGuide(){
     const GUIDE_ID = this.GUIDE_ID;
 
+
     if (GUIDE_ID > 8) {
       this.router.navigate(['home']); // Apenas um fallback se o ID for maior que 8. (Não temos ainda mais do que 8 guides)
     }
@@ -60,6 +61,7 @@ export class GuideDetailComponent implements OnInit {
     this.GUIDE_ID = id;
     this.loadGuide();
     this.scrollToElement(el)
+    document.querySelector('audio').src= this.guide.audio;
   }
 
   cloneObject(src) {
