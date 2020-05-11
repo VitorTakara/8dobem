@@ -10,8 +10,8 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: 'guia/:id', component: GuideDetailComponent },
   { path: 'fakenews', component: FakeDetailComponent },
-  { path: 'mapa', component: MapaComponent }
-  //{ path: '**', redirectTo: 'home' }
+  { path: 'mapa', component: MapaComponent },
+  { path: '**', redirectTo: 'home' }
 ];
 
 @NgModule({

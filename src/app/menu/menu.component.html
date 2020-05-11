@@ -1,10 +1,10 @@
 <span style="display: none" routerLink="/guia" routerLinkActive #guia="routerLinkActive"></span>
-<span style="display: none"  routerLink="/home" routerLinkActive #home="routerLinkActive"></span>
+<span style="display: none" routerLink="/home" routerLinkActive #home="routerLinkActive"></span>
 
 <ng-template #links>
-  <a class="link" routerLink="/home" [ngClass]="{'-active': guia.isActive || home.isActive }">ENTENDA TUDO SOBRE</a>
-  <a class="link" routerLink="/fakenews" routerLinkActive="-active">FAKE NEWS</a>
-  <a class="link" routerLink="/mapa" routerLinkActive="-active">MAPA</a>
+  <a class="link" (click)="menuAberto = false" routerLink="/home" [ngClass]="{'-active': guia.isActive || home.isActive }">ENTENDA TUDO SOBRE</a>
+  <a class="link" (click)="menuAberto = false" routerLink="/fakenews" routerLinkActive="-active">FAKE NEWS</a>
+  <a class="link" (click)="menuAberto = false" routerLink="/mapa" routerLinkActive="-active">MAPA</a>
 </ng-template>
 
 <header class="menu fadeIn">
