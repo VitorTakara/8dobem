@@ -52,7 +52,7 @@ export const GUIDE_DETAILS = [{
         paragraph: "As gotículas com o vírus podem ser inaladas diretamente por outra pessoa, ou se depositarem em superfícies(maçanetas, celulares, etc...). Pesquisas indicam que objetos de plástico e aço inoxidável,  podem transmitir o vírus por 3 dias."
       },
       {
-        paragraph: "Existem, embora raramente ocorra, casos de COVID-19 transmitido verticalmente, ou seja, de mãe para filho, durante a gravidez. Quanto aos animais domésticos, não existem comprovações de que possam transmitir o COVD-19. Houveram casos de felinos que contraíram  COVID-19 de seus donos, no entanto, os sintomas foram brandos."
+        paragraph: "Existem, embora raramente ocorra, casos de COVID-19 transmitido verticalmente, ou seja, de mãe para filho, durante a gravidez. Quanto aos animais domésticos, não existem comprovações de que possam transmitir o COVID-19. Houveram casos de felinos que contraíram  COVID-19 de seus donos, no entanto, os sintomas foram brandos."
       },
       {
         paragraph: "Alguns estudos na China apontam que gatos com donos infectados, se contaminaram com a COVID-19, porém nenhum animal apresentou sintomas e não há nenhum estudo que conclua que os animais possam transmitir a doença, do mesmo modo que não existem fontes que demonstram que alimentos possam transmitir o vírus."
@@ -170,7 +170,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Aprenda medidas fundamentais para proteger a si e todos que você ama!",
     date: "Mai 11, 2020",
     readTime: 6,
-    audio: "../../assets/audios/XXXX.mp3",
+    audio: "../../assets/audios/4. Como posso me proteger.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -184,7 +184,7 @@ export const GUIDE_DETAILS = [{
     },
     paragraphs: [{
         step: "1.",
-        paragraph: "Lavar com frequência as mãos até a altura dos punhos, com água e sabão, ou então higienize com álcool em gel 70%;"
+        paragraph: "Lavar com frequência as mãos até a altura dos punhos, com água e sabão e então higienize com álcool em gel 70%;"
       },
       {
         step: "2.",
@@ -220,7 +220,7 @@ export const GUIDE_DETAILS = [{
       },
       {
         step: "10.",
-        paragraph: "o pedir algo via delivery, higienizar a embalagem, e para alimentos, remover da embalagem para consumo, e para alguns apps como o iFood, usar a opção de entrega sem contato."
+        paragraph: "Ao pedir algo via delivery, higienizar a embalagem, e para alimentos, remover da embalagem para consumo, e para alguns apps como o iFood, usar a opção de entrega sem contato."
       },
       {
         paragraph: "Existem outras opções que podem substituir o álcool em gel na falta do mesmo.   Lenços umedecidos antissépticos, clorexidina e antisséptico em spray com gluconato de clorexidina."
@@ -278,7 +278,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "O distanciamento social é a melhor forma de combater esse inimigo, descubra o motivo!",
     date: "Mai 11, 2020",
     readTime: 1,
-    audio: "../../assets/audios/XXXX.mp3",
+    audio: "../../assets/audios/5. Qual a importancia do distanciamento social.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -304,7 +304,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Os sintomas são os sinais perceptíveis que uma doença pode causar. Saiba quais são os sintomas da COVID-19",
     date: "Mai 11, 2020",
     readTime: 3,
-    audio: "../../assets/audios/XXXX.mp3",
+    audio: "../../assets/audios/6. Quais sao os sintomas da covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -371,7 +371,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "O novo coronavírus é perigoso, porém não é uma sentença",
     date: "Mai 11, 2020",
     readTime: 4,
-    audio: "../../assets/audios/XXXX.mp3",
+    audio: "../../assets/audios/7. A covid-19 tem cura.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -417,7 +417,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Mantenha uma vida saudável, durante a quarentena. Se cuide!",
     date: "Mai 11, 2020",
     readTime: 5,
-    audio: "../../assets/audios/XXXX.mp3",
+    audio: "../../assets/audios/8. O que mais preciso saber sobre a covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"

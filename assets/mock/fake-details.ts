@@ -1,6 +1,6 @@
 export const FAKE_DETAILS = [{
     id: 1,
-    title: "O VERÃO PODE AJUDA A CONTER A TRANSMISSÃO DO VÍRUS?",
+    title: "O VERÃO PODE AJUDAR A CONTER A TRANSMISSÃO DO VÍRUS?",
     subtitle: "Saiba se um país com o clima mais quente interefere na propagação do vírus",
     date: "Mai 11, 2020",
     readTime: 2,
