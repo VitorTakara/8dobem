@@ -5,6 +5,7 @@ Um projeto simples totalmente voluntário e de graça a fim de ajudar na dissemi
 ## ATENÇÃO
 
 A branch master está como production. Caso queira ver o código aberto, acesse a branch "Development" =)
+Ou acesse nosso site: http://guiacovid19.com.br/#/home
 
 ## Feito com ❤️ por
 
