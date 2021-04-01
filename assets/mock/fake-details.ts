@@ -13,7 +13,7 @@ export const FAKE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/fake_news_verao.jpg",
+      img: "./assets/images/banners/fake_news_verao.jpg",
       alt: "Imagem contendo imagens rementendo o verão. Um abacaxi na piscina, uma bóia de piscina no formato de um flamingo e uma escada de piscina"
     },
     paragraphs: [{
