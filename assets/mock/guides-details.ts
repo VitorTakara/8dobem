@@ -4,7 +4,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Saiba o que é COVID-19, de onde veio e como chegou até o Brasil",
     date: "Mai 11, 2020",
     readTime: 2,
-    audio: "../../assets/audios/1.O que e covid-19.mp3",
+    audio: "./assets/audios/1.O que e covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -13,7 +13,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/1_o_que_e_covid.jpg",
+      img: "./assets/images/banners/1_o_que_e_covid.jpg",
       alt: "Imagem ilustrativa de uma pessoa com equipamento de proteção segurando um sugador de vírus"
     },
     paragraphs: [{
@@ -33,7 +33,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "O SARS-cov-2 é um virus respiratório, descubra como acontece a transmissão.",
     date: "Mai 11, 2020",
     readTime: 2,
-    audio: "../../assets/audios/2. Como a covid-19 e transmitida.mp3",
+    audio: "./assets/audios/2. Como a covid-19 e transmitida.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -42,7 +42,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/2_como_e_transmitido.jpg",
+      img: "./assets/images/banners/2_como_e_transmitido.jpg",
       alt: "Imagem ilustrativa de pessoas aglomeradas em um espaço vúlnerável"
     },
     paragraphs: [{
@@ -66,7 +66,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "As pessoas mais frágeis devem ser protegidas, saiba quem são elas",
     date: "Mai 11, 2020",
     readTime: 5,
-    audio: "../../assets/audios/3. O que sao grupos de risco.mp3",
+    audio: "./assets/audios/3. O que sao grupos de risco.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -75,7 +75,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/3_grupo_risco.jpg",
+      img: "./assets/images/banners/3_grupo_risco.jpg",
       alt: "Imagem de um senhor sentado tomando seu vinho dentro de um restaurante ou bar"
     },
     paragraphs: [{
@@ -170,7 +170,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Aprenda medidas fundamentais para proteger a si e todos que você ama!",
     date: "Mai 11, 2020",
     readTime: 6,
-    audio: "../../assets/audios/4. Como posso me proteger.mp3",
+    audio: "./assets/audios/4. Como posso me proteger.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -179,7 +179,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/4_protecao.jpg",
+      img: "./assets/images/banners/4_protecao.jpg",
       alt: "Imagem de uma escultura utilizando um máscara de proteção"
     },
     paragraphs: [{
@@ -278,7 +278,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "O distanciamento social é a melhor forma de combater esse inimigo, descubra o motivo!",
     date: "Mai 11, 2020",
     readTime: 1,
-    audio: "../../assets/audios/5. Qual a importancia do distanciamento social.mp3",
+    audio: "./assets/audios/5. Qual a importancia do distanciamento social.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -287,7 +287,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/5_distanciamento_social.jpg",
+      img: "./assets/images/banners/5_distanciamento_social.jpg",
       alt: "Imagem de 4 pessoas atravessando a rua na faixa de pedestres, porém a imagem foi cortada e afastada em cada pessoa para demonstrar o distânciamento"
     },
     paragraphs: [{
@@ -304,7 +304,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Os sintomas são os sinais perceptíveis que uma doença pode causar. Saiba quais são os sintomas da COVID-19",
     date: "Mai 11, 2020",
     readTime: 3,
-    audio: "../../assets/audios/6. Quais sao os sintomas da covid-19.mp3",
+    audio: "./assets/audios/6. Quais sao os sintomas da covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -313,7 +313,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/6_sintomas.jpg",
+      img: "./assets/images/banners/6_sintomas.jpg",
       alt: "Imagem de um termômetro"
     },
     paragraphs: [{
@@ -371,7 +371,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "O novo coronavírus é perigoso, porém não é uma sentença",
     date: "Mai 11, 2020",
     readTime: 4,
-    audio: "../../assets/audios/7. A covid-19 tem cura.mp3",
+    audio: "./assets/audios/7. A covid-19 tem cura.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -380,7 +380,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/7_cura.jpg",
+      img: "./assets/images/banners/7_cura.jpg",
       alt: "Imagem de duas pessoas se abraçando"
     },
     paragraphs: [{
@@ -417,7 +417,7 @@ export const GUIDE_DETAILS = [{
     subtitle: "Mantenha uma vida saudável, durante a quarentena. Se cuide!",
     date: "Mai 11, 2020",
     readTime: 5,
-    audio: "../../assets/audios/8. O que mais preciso saber sobre a covid-19.mp3",
+    audio: "./assets/audios/8. O que mais preciso saber sobre a covid-19.mp3",
     shareButtons: [{
       icon: "icon-facebook",
       type: "facebook"
@@ -426,7 +426,7 @@ export const GUIDE_DETAILS = [{
       type: "whatsapp"
     }],
     thumb: {
-      img: "../../assets/images/banners/8_o_que_saber.jpg",
+      img: "./assets/images/banners/8_o_que_saber.jpg",
       alt: "Imagem de uma ilustração de uma cabeça com uma fechadura dentro da mesma"
     },
     paragraphs: [{
